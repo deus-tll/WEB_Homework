@@ -1,0 +1,19 @@
+.main-body{
+    background-color: rgb(214, 214, 214);
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content {
+    text-align: justify;
+}
+
+.main-content > p > sup > span {
+    color: blue;
+    font-weight: bold;
+}
+
+.markers{
+    font-size: 9.3pt;
+}
