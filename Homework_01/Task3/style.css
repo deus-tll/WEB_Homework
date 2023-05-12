@@ -1,0 +1,58 @@
+.main-body{
+  background-color: rgb(241, 241, 241);
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headers{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Geneva, Verdana, sans-serif, monospace, serif;
+}
+
+.dashed-text{
+  border-bottom: dotted 1px;
+}
+
+:root {
+  --tags-color: maroon;
+}
+
+.tags-in-text{
+  color: var(--tags-color);
+  background-color: gainsboro;
+}
+
+.tags-in-code{
+  color: var(--tags-color);
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.main-content > pre{
+  padding-top: 15px;
+  background-color: gainsboro;
+}
+
+.tags{
+  font-size: 10pt;
+  margin-top: 1.5%;
+  margin-bottom: 4%;
+}
+
+.tags > p{
+  display: inline;
+}
+
+.tags > div{
+  color: rgb(72, 146, 151);
+  display: inline-flex;
+  margin-right: 0.1px;
+  background-color: gainsboro;
+}
+
+.tags :last-child{
+  margin-right: 0
+}
