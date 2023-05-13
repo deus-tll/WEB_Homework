@@ -1,0 +1,58 @@
+.main-body{
+  background-color: rgb(241, 241, 241);
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-content {
+  --element-padding-top-bottom: 8px;
+}
+
+.main-content > h1{
+  text-align: justify;
+}
+
+.main-content > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-content > ul > li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+}
+
+.main-content > ul > li > img{
+  display: inline;
+}
+
+.main-content > ul > li > p{
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-content > ul > li > div{
+  display: inline;
+  color: maroon;
+  font-weight: bolder;
+}
+
+.darkblue-item{
+  background-color: rgb(165, 187, 216);
+}
+
+.blue-item{
+  background-color: rgb(191, 218, 253);
+}
+
+.gray-item{
+  background-color: rgb(228, 228, 228);
+}
+
+.crossed-out {
+  text-decoration: line-through;
+}

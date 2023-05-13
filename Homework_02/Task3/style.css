@@ -1,0 +1,40 @@
+.main-body{
+  --main-body-margin: 40px;
+}
+
+.main-body{
+  background-color: rgb(241, 241, 241);
+  margin-left: var(--main-body-margin);
+  margin-right: var(--main-body-margin);
+  margin-top: var(--main-body-margin);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-content{
+  --ol-margin-left-right: 60px;
+  --ol-margin-top-bottom: 20px;
+}
+
+.main-content > dl > ol {
+  margin-left: var(--ol-margin-left-right);
+  margin-right: var(--ol-margin-left-right);
+  margin-top: var(--ol-margin-top-bottom);
+  margin-bottom: var(--ol-margin-top-bottom);
+}
+
+.main-content > dl > ol > li > dd {
+  margin-left: 0;
+  padding: 2.5px;
+}
+
+.gray-text {
+  color: gray;
+}
+
+.blue-text {
+  color: darkblue;
+}
+
+.bold-text{
+  font-weight: bolder;
+}
