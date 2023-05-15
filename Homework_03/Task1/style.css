@@ -1,0 +1,44 @@
+.main-body{
+  background-color: gainsboro;
+  margin-top: 2%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.main-content > header > h1{
+  text-align: center;
+}
+
+.main-content > footer > h5{
+  text-align: center;
+  margin-top: 0;
+}
+
+.products {
+  --margin-products: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: var(--margin-products);
+  margin-right: var(--margin-products);
+  margin-top: var(--margin-products);
+  margin-bottom: 15px;
+}
+
+.product {
+  text-align: center;
+  width: 150px;
+  height: 200px;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  font-weight: bolder;
+  margin: var(--margin-products);
+}
