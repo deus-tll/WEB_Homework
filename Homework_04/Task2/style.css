@@ -1,0 +1,53 @@
+#main {
+  width: 900px;
+  height: 400px;
+  background-color: rgb(194, 194, 194);
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  width: 850px;
+  height: 270px;
+  position: relative;
+  transition: transform 2s linear;
+}
+
+.container:hover .block-left {
+  transform: perspective(500px) rotateY(30deg);
+}
+
+.container:hover .block-right {
+  transform: perspective(500px) rotateY(-30deg);
+}
+
+.block-left, .block-right{
+  position: absolute;
+  background-color: #872D62;
+  border: 8px solid #651142;
+  height: 100%;
+  width: 50%;
+  box-sizing: border-box;
+  z-index: 1;
+  transition: transform 2s linear;
+}
+
+.block-left {
+  left: 0;
+  transform-origin: left;
+}
+
+.block-right {
+  right: 0;
+  transform-origin: right;
+}
+
+.text{
+  position: absolute;
+  font-size: 2.5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

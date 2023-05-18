@@ -1,0 +1,71 @@
+#main {
+  width: 90%;
+  height: 90%;
+  background-color: rgb(194, 194, 194);
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 350px;
+  position: relative;
+  display: inline-block;
+  transition: transform 2s linear;
+}
+
+.block-text, .block-image{
+  height: 100%;
+  width: 100%;
+}
+
+.block-left, .block-right{
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+
+.block-left{
+  left: 0;
+}
+
+.block-right{
+  right: 0;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s;
+}
+
+.text{
+  position: absolute;
+  font-size: 1.5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  transition: background-color 0.3s;
+  pointer-events: none;
+}
+
+.container:hover .overlay{
+  background-color: rgba(0,0,0,0.5);
+}
+
+.container:hover .image{
+  transform: scale(1.1);
+}
