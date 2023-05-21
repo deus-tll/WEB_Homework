@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(233, 233, 233);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main{
+  width: 900px;
+  max-height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 25px;
+  background-color: blueviolet;
+}
+
+.plan-cards{
+  display: flex;
+  padding: 60px;
+  background-color: rgb(221, 221, 221);
+}
+
+.card{
+  width: 190px;
+  height: 300px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: rgb(250, 250, 250);
+  transition: transform 1s;
+}
+
+.card:hover{
+  z-index: 1;
+  transform: scale(1.25, 1.25);
+}
+
+
+.bold-center{
+  font-weight: bold;
+  text-align: center;
+}
+
+.card > .plan-name{
+  padding-top: 15px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid var(--color);
+}
+
+
+.card > .price::before{
+  content: "$";
+}
+
+.card > .price{
+  font-size: 25pt;
+  margin-top: 10px;
+}
+
+.card > .for-time{
+  opacity: 0.15;
+  margin-bottom: 15px;
+}
+
+.card > .for-time::after{
+  content: "per month";
+}
+
+.card > .features{
+  font-size: 9pt;
+  line-height: 22px;
+}
+
+.card > .buy-button{
+  font-size: 10pt;
+  border-radius: 4px;
+  width: 80px;
+  line-height: 35px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: var(--color);
+  position: relative;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card > .buy-button::after{
+  content: "BUY";
+}
+
+
+.red-style{
+  --color: rgb(216, 56, 109);
+}
+
+.orange-style{
+  --color: orange;
+}
+
+.blue-style{
+  --color: rgb(46, 46, 146);
+}
+
+.green-style{
+  --color: rgb(49, 179, 49);
+}
