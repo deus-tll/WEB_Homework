@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header{
+  width: 100vw;
+  position: relative;
+  color: whitesmoke;
+  position: sticky;
+  top: 0;
+  left: 0;
+  --height: 55px;
+  z-index: 1;
+}
+
+#menu{
+  background-color: #A23646;
+  height: var(--height);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#menu > div{
+  font-weight: bold;
+  padding-left: 60px;
+}
+
+#menu ul{
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  margin-left: 40px;
+}
+
+#menu ul::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#menu ul li{
+  float: left;
+}
+
+#menu ul li a{
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: var(--height);
+}
+
+#menu ul li:hover{
+  background-color: #912F3C;
+}
+
+#content{
+  width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 750px 250px;
+  margin-top: 15px;
+}
+
+.main-text > p{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+.small-text{
+  font-size: 9pt;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.main-author-card{
+  background-color: #E7E7E7;
+  height: 490px;
+  width: 100%;
+  margin-left: 25px;
+  position: relative;
+  font-size: 9pt;
+}
+
+.main-author-card > img{
+  position: relative;
+  width: 85%;
+  height: 55%;
+  left: 50%;
+  top: 3.5%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.main-author-card > div{
+  position: relative;
+  width: 85%;
+  height: 40%;
+  left: 50%;
+  top: 3.5%;
+  transform: translateX(-50%);
+}
+
+
+.main-author-card > div > div{
+  display: inline-flex;
+  width: 100%;
+}
+
+.main-author-card > div > div > div:first-child,
+.main-author-card > div > div > div:last-child
+{
+  margin-bottom: 10px;
+}
+
+.main-author-card > div > div > div:first-child{
+  align-self: flex-start;
+  position: relative;
+  width: 30%;
+}
+
+.main-author-card > div > div > div:last-child{
+  position: relative;
+  left: 35%;
+  transform: translateX(-50%);
+  width: 70%;
+}
+
+.main-author-card > div > div > div > p{
+  margin: 0;
+}
+
+.main-author-card > div > div > div > ul{
+  list-style: none;
+}
+
+.similar-authors{
+  width: 1025px;
+  grid-column: span 2;
+  margin-bottom: 20px;
+}
+
+.similar-authors-cards{
+  width: 100%;
+  height: 250px;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid rgba(128, 128, 128, 0.5);
+}
+
+.similar-authors-cards > div{
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.similar-authors-cards > div > img{
+  width: 90%;
+  height: 90%;
+}
+
+.similar-authors-cards > div > p{
+  margin: 10px;
+}
