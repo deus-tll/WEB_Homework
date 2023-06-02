@@ -1,0 +1,57 @@
+body{
+  width: 80vh;
+  height: 100%;
+  padding-top: 100px;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #ADD9E6;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow: hidden;
+}
+
+.user {
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.user img {
+ width: 70px;
+ height: 70px;
+}
+
+.user h5 {
+  color: gray;
+}
+
+.user h4, .user h5 {
+  margin: 5px 0;
+}
+
+.redMessage, .blueMessage{
+  display: flex;
+  width: 960px;
+}
+
+.redMessage .message, .blueMessage .message{
+  width: 400px;
+  padding: 10px;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+}
+
+.redMessage .message{
+  background-color: rgb(236, 127, 127);
+  border-radius: 15px 15px 15px 0px;
+}
+
+.blueMessage{
+  margin: 10px;
+  margin-left: 150px;
+}
+
+.blueMessage .message{
+  background-color: rgb(88, 162, 222);
+  border-radius: 15px 15px 0px 15px;
+}
