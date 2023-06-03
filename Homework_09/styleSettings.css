@@ -1,0 +1,91 @@
+img {
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+}
+
+header {
+  background-color: rgb(27, 84, 137);
+  padding: 5px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+}
+
+header a:hover {
+  color: rgb(65, 65, 65);
+}
+
+header .avatar {
+  width: 45px;
+  height: 45px;
+  float: right;
+  margin-right: 25px;
+}
+
+header .selected-page {
+  color: rgb(65, 65, 65);
+}
+
+.div-header-label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-label {
+  padding: 10px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.header-settings {
+  display: grid;
+  grid-template-columns: 17% 50% 32%;
+  background-color: rgba(204, 230, 255);
+  color: rgb(83, 88, 232);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: 18% 50% 33%;
+}
+
+.avatar {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  text-align: center;
+}
+
+.avatar img {
+  width: 200px;
+  height: 200px;
+}
+
+.students-info {
+  margin-top: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.password {
+  margin-top: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}

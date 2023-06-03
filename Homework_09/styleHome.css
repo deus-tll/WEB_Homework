@@ -1,0 +1,170 @@
+img {
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+}
+
+header {
+  background-color: rgb(27, 84, 137);
+  padding: 5px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+}
+
+header a:hover {
+  color: rgb(65, 65, 65);
+}
+
+header .avatar {
+  width: 45px;
+  height: 45px;
+  float: right;
+  margin-right: 25px;
+}
+
+header .selectedPage {
+  color: rgb(65, 65, 65);
+}
+
+.headerLabel {
+  padding: 10px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 38px;
+  margin-left: 35vw;
+}
+
+
+h2 {
+  margin-left: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.news {
+  overflow: auto;
+  grid-column: 1;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid rgb(212, 212, 212);
+}
+
+.news img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.news input[type="button"] {
+  color: white;
+  background-color: rgb(103, 103, 103);
+  border: 0;
+  width: 100%;
+  height: 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.news input[type="button"]:hover {
+  color: white;
+  background-color: rgb(58, 173, 218);
+}
+
+.news .image-news {
+  display: flex;
+}
+
+.news .image-news div div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news .image-news div div h6 {
+  float: right;
+}
+
+.news .text-news div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news .text-news {
+  margin-left: 10px;
+}
+
+.news .text-news div h6 {
+  margin-left: 100px;
+}
+
+
+.rewards {
+  grid-column: 2;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.rewards ul {
+  list-style: none;
+}
+
+.rewards ul li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.rewards .class {
+  border: 1px solid lightgray;
+  border-radius: 0px 200px 200px 0px;
+  height: 30px;
+  width: 120px;
+}
+
+.rewards .date {
+  border: 1px solid lightgray;
+  border-radius: 200px 0px 0px 200px;
+  height: 30px;
+  width: 140px;
+}
+
+.rewards div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rewards h5 {
+  margin: 5px 1px;
+}
+
+.rewards img {
+  margin: 5px 1px;
+}
+
+.rewards input[type="button"] {
+  color: white;
+  background-color: rgb(219, 219, 219);
+  border: 0;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.rewards input[type="button"]:hover {
+  color: white;
+  background-color: rgb(58, 173, 218);
+}

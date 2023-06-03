@@ -1,0 +1,214 @@
+img {
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+}
+
+header {
+  background-color: rgb(27, 84, 137);
+  padding: 5px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+}
+
+header a:hover {
+  color: rgb(65, 65, 65);
+}
+
+header .avatar {
+  width: 45px;
+  height: 45px;
+  float: right;
+  margin-right: 25px;
+}
+
+header .selected-page {
+  color: rgb(65, 65, 65);
+}
+
+.header-label {
+  padding: 10px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 38px;
+  margin-left: 10vw;
+
+}
+
+h3 {
+  padding: 10px;
+}
+
+.header-two {
+  display: grid;
+  grid-template-columns: 89vw 10vw;
+  height: 80px;
+}
+
+.colors {
+  margin-right: 25px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.colors div {
+  display: flex;
+  justify-content: end;
+  margin-top: 6px;
+}
+
+.colors .white {
+  background-color: rgb(220, 220, 220);
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.colors .blue {
+  background-color: rgb(0, 8, 255);
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.colors .green {
+  background-color: rgb(0, 255, 68);
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.colors .pink {
+  background-color: rgb(255, 0, 225);
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+
+
+.java-script-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.java-script-cont .choose-file {
+  background-color: rgb(238, 238, 238);
+  border-radius: 5px;
+  width: 400px;
+  height: 150px;
+  margin-top: 15px;
+}
+
+.java-script-cont .resend-file {
+  color: white;
+  background-color: rgba(67, 198, 215, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  height: 150px;
+  width: 400px;
+  margin-top: 15px;
+}
+
+.choose-file .help-class {
+  padding: 20px;
+}
+
+.mb-3 {
+  margin-top: 10px;
+}
+
+
+.html-css-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.html-css-cont .choose-file {
+  color: white;
+  background-color: rgba(246, 112, 130, 0.775);
+  border-radius: 5px;
+  width: 400px;
+  height: 150px;
+  margin-top: 15px;
+}
+
+.html-css-cont .resend-file {
+  color: white;
+  background-color: rgba(0, 214, 0, 0.775);
+  padding: 10px;
+  border-radius: 5px;
+  height: 150px;
+  width: 400px;
+  margin-top: 15px;
+}
+
+.resend-file .help-class {
+  padding: 10px;
+}
+
+.marks {
+  background-color: rgb(75, 200, 75);
+  border-radius: 15px;
+  width: 25px;
+  text-align: center;
+  float: right;
+}
+
+.resend-file .buttons {
+  display: flex;
+}
+
+button {
+  padding: 0;
+  color: white;
+  border: 0;
+  background-color: transparent;
+  width: 180px;
+}
+
+button div img {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 3px;
+  margin-right: 10px;
+}
+
+button div label {
+  margin-right: 10px;
+}
+
+button div:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(198, 198, 198, 0.692);
+}
+
+.right-line div {
+  padding: 5px;
+  border-radius: 0px 15px 15px 0px;
+  background-color: transparent;
+  border: 1px white solid;
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.left-line div {
+  padding: 5px;
+  border-radius: 15px 0px 0px 15px;
+  background-color: transparent;
+  border: 1px white solid;
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
